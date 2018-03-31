@@ -4,6 +4,7 @@
 #include <cmath>
 #include <ctime>
 #define N 24
+#define EPS 10e-9
 
 using namespace std;
 
@@ -79,7 +80,11 @@ void norm()
             tmp += A[j][i] * X[i];
         err += fabs(A[j][N] - tmp);
     }
-    cout << "The 1-Norm is " << err << ". The solution is valid. (OK)" << endl;
+    cout << "The 1-Norm is " << err << ". ";
+    if (err <= EPS)
+        cout << "The solution is valid. (OK)" << endl;
+    else
+        cout << "The solution is error. (NG)" << endl;
 }
 
 // Selection 1 (from myself)
