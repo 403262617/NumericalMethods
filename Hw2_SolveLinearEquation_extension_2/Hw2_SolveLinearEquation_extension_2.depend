@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1522515707 source:c:\users\administrator\onedrive\github\numericalmethods\hw2_solvelinearequation\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<cmath>
+	<ctime>
+
+1523719100 source:c:\users\administrator\onedrive\github\numericalmethods\hw2_solvelinearequation_extension\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<ctime>
+
+1523725540 source:c:\users\administrator\onedrive\github\numericalmethods\hw2_solvelinearequation_extension_2\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<ctime>
+
